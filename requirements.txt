@@ -1,0 +1,10 @@
+streamlit
+openai
+langchain
+llama-index
+beautifulsoup4
+requests
+pandas
+python-dotenv
+PyMuPDF
+google-generativeai
