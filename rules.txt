@@ -1,35 +1,28 @@
 ✅ Steps to Upload from VS Code to GitHub
 1. Open your project in VS Code
-Make sure you're in the correct folder (e.g., Automation_Chatbot_project25).
-
 2. Open the VS Code Terminal
-Use menu: Terminal → New Terminal
-
-Or shortcut: `Ctrl + ``
-
 3. Initialize Git in your folder (if not done)
-bash
-Copy
-Edit
 git init
 4. Add your GitHub remote
-Replace the default origin with your GitHub repo:
-
-bash
-Copy
-Edit
 git remote add origin https://github.com/tejasai550/Automation_Chatbot_project25.git
 5. Stage and commit your files
-bash
-Copy
-Edit
 git add .
 git commit -m "Initial upload of chatbot project"
 6. Set main branch and push
-bash
-Copy
-Edit
 git branch -M main
 git push -u origin main
 ✅ You’re done! Your project is now on GitHub:
 https://github.com/tejasai550/Automation_Chatbot_project25
+
+
+After any changes in file or Code
+1. Save the file 
+2. run command (git status)
+3. Stage the changes (git add .)
+4. Commit the changes (git commit -m "Updated text in <filename> to fix <something>")
+5.push to github (git push origin main)
+
+Basic Format to push 
+(git add .
+git commit -m "Your commit message"
+git push origin main)
